@@ -1,0 +1,424 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+ }
+
+header{
+    width:100%;
+    
+}
+
+.top-header{
+   margin: 0px auto;
+   padding: 10px 0;
+   max-width: 1000px;
+   display:flex;
+   align-items: center;
+
+}
+
+.top-header img{
+    height: 40px;
+    width:40px;
+}
+
+.top-header p{
+   font-size: 30px;
+   padding-left: 8px;
+   color:rgba(52, 16, 129, 0.678)
+}
+
+.section-formulary{
+    background-image: url(img/bahia.jpg);
+    width:100%;
+    height:120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.section-content{
+    background-color: white;
+    width: 800px;
+    margin:25px;
+    
+
+}
+
+.title-of-content{
+    width: 100%;
+    height: 50px;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    text-align:center;
+    line-height: 50px;
+    background-color: rgb(85, 39, 235);
+    color:white;
+    font-size: 13px;
+    
+}
+
+.title-of-content img{
+    width:35px;
+    height:35px;
+    padding:1px;
+    margin-top:7px;
+    margin-right:8px;
+    transform: rotate(330deg); 
+    -webkit-transform: rotate(330deg);
+    -moz-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+
+   
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    gap:10px;
+
+    
+
+}
+
+label{
+    font-size:16px;
+}
+
+.padding-of-data{
+    padding-right:13px;
+    
+}
+
+input{
+    padding:5px;
+    margin-bottom:8px;
+    background-color: rgb(232, 226, 255);
+    border:none;
+    font-size: 15px;
+}
+.date-box{
+    display:flex;
+    justify-content: space-between;
+}
+
+.date-box2{
+    width:50%;
+}
+.date-box2 input{
+    width:60%;
+    
+}
+
+.padding-of-origin{
+    padding-right:3px;
+}
+
+.select-box-content-1{
+    display: flex;
+    justify-content: space-between;
+
+    gap:20px;
+
+    padding: 10px 0;
+    
+}
+
+.origin-box{
+    width:50%;
+
+}
+
+.select-of-origin-box{
+    width:60%;
+    height:25px;
+}
+
+.beddroom-medium-box{
+    display:flex;
+    justify-content: flex-start;
+    gap:20px;
+    padding-top:10px;
+}
+
+.preferency-box{
+  
+    display:flex;
+    justify-content: flex-start;
+    gap:20px;
+    padding-top:5px;
+}
+
+.preferency-box-small{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:2px;
+    margin-top:10px;
+}
+.preferency-box-small label{
+    padding-bottom:4px;
+}
+
+.preferency-box input{
+    
+    appearance: none;
+    -webkit-appearance: none;
+    height:13px;
+    width:13px;
+    border-radius: 1px;
+    background-color: rgb(232, 226, 255);;
+}
+
+input:checked{
+    background: rgb(85, 39, 235);
+    border:1px solid #18181b;
+}
+
+.preferency-box-small{
+    display: flex;
+    gap:5px;
+    
+}
+
+.beddrom-box-input-style{
+    appearance: none;
+    -webkit-appearance: none;
+    height:13px;
+    width:13px;
+    border-radius: 1px;
+    background-color: rgb(232, 226, 255);
+}
+
+select{
+    background-color: rgb(232, 226, 255);
+    border:none;
+    font-size:15px;
+}
+
+.beddroom-box-small{
+    display:flex;
+    gap:5px;
+}
+
+button{
+    width:30%;
+    padding:10px;
+    background-color: rgb(85, 39, 235);
+    border:none;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(124, 87, 247);
+    color:black;
+}
+
+/* Part 2*/
+
+.offer-area, .nature-section{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    margin: 30px;
+    
+    margin: 0 auto;
+    overflow: none;
+}
+.area-titles{
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+.offer-area h2, .nature-section h2{
+    font-size: 20px;
+    margin-bottom:5px;
+}
+
+.offer-area h3, .nature-section h3{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 15px 0;
+}
+
+.offer-area span{
+    font-weight: bold;
+}
+
+.offers-images{
+    width:80%;
+    height: 385px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.offer-main-image{
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+    background-size: cover;
+}
+
+.offer-4-images{
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offer-4-images figure{
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+
+.offer-main-image img, .offer-4-images img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.offer-main-image figcaption, .offer-4-images figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(0 0 0 / 50%);
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+
+.two-images-of-nature{
+  
+    max-width: 1000px;
+    margin:0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.nature-image{
+        margin: 10px 0;
+        width: calc(50% - 10px);
+        height: 100%;
+        box-shadow: 1px 1px 10px black;
+
+}
+
+.nature-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.nature-image div {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+
+
+.nature-image h3 {
+    font-size: 16px;
+    
+   
+}
+
+
+.nature-image p {
+    color: grey;
+    font-size: 14px;
+    margin: 15px 0 0 0px;
+}
+
+
+.container-footer{
+    display:flex;
+    background-color: rgb(85, 39, 235);
+    justify-content: space-around;
+    width:100%;
+    margin-top:32px;
+
+
+
+}
+
+.contato{
+    display:flex;
+    max-width:1024px;
+    align-items: center;
+
+}
+
+.contato h2{
+    font-size:20px;
+    color:white;
+
+}
+
+.contato-container{
+    padding-left:15px;
+}
+
+
+.contato-line{
+    display:flex;
+    align-items: center;
+    gap:5px;
+    height:50px;
+}
+
+
+.contato-line img{
+    width:30px;
+    height:30px;
+}
+
+.contato-line span{
+    color:white;
+}
+
+
+@media (max-width:800px){
+    .contato-line img{
+        width:20px;
+        height:20px;
+    }
+    .contato-line span{
+        font-size:12px;
+    }
+    .contato h2{
+        font-size:12px;
+    }
+    .offers-images{
+       width:100%;
+       justify-content: center;
+       margin:0 auto;
+
+    }
+
+    
+}
